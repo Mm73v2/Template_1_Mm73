@@ -1,0 +1,51 @@
+<!-- Header -->
+        <div class="header">
+          <div class="container">
+                <div class="header-logo">
+                    <img src="images/logo-alt.webp" alt="Logo" draggable="false">
+                </div> <!-- ./header-logo -->               
+                    <ul class="header-list">
+                        <li><a href="#" class="active">home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">portfolio</a></li>
+                        <li><a href="#">services</a></li>
+                        <li><a href="#">prices</a></li>
+                        <li><a href="#">team</a></li>
+                        <li class="dropdown-menu"><a href="#">blog  <i class="fa fa-caret-down fa-xs dp-arrow"></i></a>
+                            <ul class="drop-down">
+                                <li><a href="#">blog</a></li>
+                            </ul>
+                        </li> 
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                <div class="clear"></div>
+
+            <!-- Breadcrumb -->
+            </div> <!-- ./container -->
+            <div class="breadcrumb pd-y bg-grey">
+                <div class="container">
+                    <div class="breadcrumb-content">
+                      <h2 class="breadcrumb-title">Blog Page</h2>
+                      <ul class="breadcrumb-list">
+                          <li><a href="#">Home</a>  <span class="slash">/</span></li>
+                          <li><a href="#">Blog </a> <span class="slash">/</span></li>
+                        <li class="active">Single Post</li>
+                      </ul>
+                    </div> <!-- ./breadcrumb-content -->
+                    <div class="clear"></div>
+                </div> <!-- ./container -->
+            </div> <!-- ./breadcrumb -->
+        </div> <!-- ./header -->
+
+        <!-- First Half -->
+        <div class="blog pd-y">
+            <div class="container">
+                <div class="blog-content">
+                    <div class="blog-img">
+                        <img src="images/blog/blog1.webp" alt="blog pic">
+                    </div>
+                </div>
+                <div class="blog-side"></div>
+            </div>
+            
+        </div>
