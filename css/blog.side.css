@@ -1,0 +1,235 @@
+/* blog side */
+
+/* blog-content */
+.first-half {
+    padding-top: 120px;
+}
+
+.blog-content {
+    width: 73%;
+    margin-right: 2%;
+    float: left;
+}
+
+.blog-content img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.blog-content-list {
+    margin-bottom: 20px;
+}
+
+.blog-content-list li.mg {
+    margin: 0 10px 0 12px;
+}
+
+.blog-content-list li {
+    display: inline-block;
+}
+
+.widget {
+    width: 25%;
+    float: left;
+}
+
+.blog-content-title {
+    margin-bottom: 20px;
+}
+
+.blog-content-desc {
+    color: var(--graycolor);
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.blog-content-links {
+    margin-bottom: 100px;
+    height: 25px;
+}
+
+.blog-content-tags {
+    display: inline-block;
+}
+
+.blog-content-links a {
+    text-transform: capitalize;
+    display: inline-block;
+    color: #10161A;
+    background-color: var(--linkcolor);
+    text-align: center;
+    height: 35px;
+    font-size: 14px;
+    margin: 2px 0;
+    padding: 0 25px;
+    line-height: 35px;
+    transition: color 0.5s, background-color 0.5s;
+}
+
+.blog-content-links a i {
+    transition: color 0.5s;
+}
+
+.blog-content-links a:hover {
+    color: #fff;
+    background-color: var(--maincolor);
+}
+
+.blog-content-links a:hover i {
+    color: #fff;
+}
+
+.blog-content-comment {
+    width: 100%;
+    border: 1px solid #EEE;
+    padding: 20px 20px 60px 20px;
+    margin-bottom: 40px;
+}
+
+.blog-content-cimg {
+    width: 25%;
+    display: inline-block;
+    float: left;
+    padding-right: 20px;
+}
+
+.blog-content-comment-body h2 {
+    display: inline-block;
+}
+
+.blog-content-csocial {
+    float: right;
+}
+
+.blog-content-comment-body a i {
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    background-color: var(--maincolor);
+    line-height: 25px;
+    border-radius: 5px;
+}
+
+.blog-content-social-head {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EEE;
+}
+
+.blog-content-cdesc {
+    color: var(--graycolor);
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+/* widget */
+.search-bar {
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.search-bar input {
+    height: 40px;
+    padding-right: 35px;
+}
+
+.search-btn {
+    width: 30px;
+    height: 30px;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    bottom: -50%;
+    background: transparent;
+    overflow: visible;
+}
+
+.widget-links a {
+    display: block;
+    color: #10161A;
+    border-top: 1px solid #EEE;
+    padding: 10px 0;
+    text-transform: capitalize;
+    transition: color 0.2s;
+}
+
+.widget-links a.bd-btm {
+    border-bottom: 1px solid #EEE;
+    margin-bottom: 30px;
+}
+
+.widget-links a span {
+    color: var(--maincolor);
+    float: right;
+}
+
+.widget-links a:hover {
+    color: var(--maincolor);
+}
+
+.widget-posts {
+    width: 100%;
+}
+
+.widget-post-img {
+    width: 100%;
+}
+
+.widget-post-img img {
+    display: block;
+    width: 40%;
+    float: left;
+    margin-right: 10px;
+    height: 70px;
+}
+
+.widget-post.mg {
+    margin: 30px 0;
+}
+
+.widget-post-title {
+    color: #10161A;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: inherit;
+    line-height: 1.6;
+    margin-bottom: 5px;
+    transition: color 0.3s;
+}
+
+.widget-post-desc {
+    color: var(--maincolor);
+    font-size: 13px;
+}
+
+.widget-post a:hover .widget-post-title {
+    color: var(--maincolor);
+}
+
+.pd-ex {
+    padding-top: 25px;
+}
+
+.widget-tags {
+    width: 100%;
+}
+
+.widget-tags a {
+    display: inline-block;
+    color: #10161A;
+    margin: 5.5px 0;
+    text-transform: capitalize;
+    font-size: 14px;
+    background-color: var(--linkcolor);
+    padding: 10px 17px;
+    transition: color 0.5s, background-color 0.5s;
+}
+
+.widget-tags a:hover {
+    color: #fff;
+    background-color: var(--maincolor);
+}
